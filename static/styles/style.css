@@ -1,0 +1,106 @@
+.full-width {
+    max-width: 100%;
+}
+
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #EAEAEA
+}
+
+.vertical-padded {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.top-padded {
+    padding-top: 40px;
+}
+
+.bottom-padded {
+    padding-bottom: 40px;
+}
+
+#selDataset {
+    font-size: large;
+}
+
+
+.table {
+    margin-left: 250px;
+    border-left-style: solid;
+    border-width: 5px;
+    border-color: lightgrey;
+}
+
+#d3-map {
+    border-style: outset;
+    border-color: lightgrey;
+    border-width: 10px;
+}
+
+.left-padded {
+    padding-left: 250px;
+}
+
+.hero {
+    background-image: url("http://clipart-library.com/img/885073.gif");
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.hero-text {
+    color: black;
+    text-shadow:
+        -1.2px -1.2px #EFEEEE,
+         1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {   
+    position: absolute;           
+   text-align: center;           
+   /* width: 96px;                   */
+   height: 48px;                  
+   padding: 2px;             
+   font: 8px sans-serif;        
+   background: white;   
+   border: 0px;      
+   border-radius: 8px;           
+   pointer-events: none;
+   display: block;         
+}
+
+.click-capture {
+    pointer-events: all;
+}
+
+#mainpic {
+    max_width: auto;
+    max_heigth: 300px;
+}
+
+@media (max-width:767px) {
+    #mainpic {
+      float: none;
+      max-width: auto;
+      max-height: 250px;
+      padding: 10px;
+    }
+}
